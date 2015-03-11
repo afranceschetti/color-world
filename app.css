@@ -1,0 +1,35 @@
+
+body{color: #fff; background-color: #000;}
+
+.main-title{font-size: 72pt;}
+.navbar-brand{font-size: 24pt; line-height: 24pt;}
+.logo{font-weight: 900;letter-spacing: .05em;}
+.logo .color1{color: #916ab1}
+.logo .color2{color: #8fca40}
+.logo .color3{color: #fff43b}
+.logo .color4{color: #f29524}
+.logo .color5{color: #f04090}
+.logo .color6{color: #55b9fc}
+
+
+.palette_panel{padding: 24px;}
+.palette_panel h3 small{ display: block; margin: 12px 0 24px;;}
+.palette_row{margin: 12px; overflow: hidden; clear: both;}
+.palette_name{ text-align: right!important; font-weight: bold;}
+.palette_item{float: left; width: 6em; height: 4em; line-height: 4em;margin: 0 6px; border-radius: 2px; padding:0 .5em;text-align: center;}
+
+#nav-dark-button{color: #fff; background-color: #000;}
+#nav-light-button{color:  #000; background-color: #fff;}
+#nav-customcolor-button{color: #000; background-color: #9ade00; border-color:#9ade00;}
+
+.navbar input.form-control{width:8em;}
+.inverse-dropdown {background-color: #222;  border-color: #080808;}
+.inverse-dropdown > li > a {color: #999;}
+.inverse-dropdown > li > a:hover {color: #fff; background-color: #000;}
+.inverse-dropdown > .divider { background-color: #000;}
+
+#resources li{margin: 6px 0;}
+
+.column-footer{margin-top: 48px; padding-top: 12px; border-top: dashed 1px #aaa; font-size: 11px;}
+
+
