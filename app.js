@@ -34,7 +34,22 @@ var metroPalette = 	{name:'Windows Phone', desc: 'Palette metro style used in wi
 						{'name':'Sienna','colors':['647687','76608a']}	
 					]
 				};
-var palettes =[tangoPalette, alePalette, metroPalette];
+				
+var pantoneSpring2016 = {name:'Pantone Spring 2016', desc: ' <a href="http://www.pantone.com/pages/fcr/?season=spring&year=2016&pid=11" target="_blank" >Spring 2016</a>: A Transporting and Transformative Canvas', palette: 
+					[{'name':'Rose Quartz','colors':['F7CAC9']},
+						{'name':'Peach Echo','colors':['F7786B']},
+						{'name':'Serenity','colors':['91A8D0']},
+						{'name':'Snorkel Blue','colors':['034F84']},
+						{'name':'Buttercup','colors':['FAE03C']},
+						{'name':'Limpet Shell','colors':['98DDDE']},
+						{'name':'Lilac Gray ','colors':['9896A4']},
+						{'name':'Fiesta ','colors':['DD4132']},
+						{'name':'Iced Coffee','colors':['B18F6A']},
+						{'name':'Green Flash','colors':['79C753']},
+					]
+				};				
+				
+var palettes =[tangoPalette, alePalette, metroPalette,pantoneSpring2016];
 
 
 var jackProductionPalette = { name: 'Jack Production', desc: 'Mini palette found on  <a href="http://www.jackproductions.com.au/" target="_blank" >Jack Production</a>', 
