@@ -59,7 +59,7 @@ var ios7Palette = { name: 'iOs 7 Palette', desc: 'Palette used on iPhone in iOs7
 						palette: [{colors:['8e8e93','ff2252','ff342f','ff9422','ffcc34']},
 						{colors:['2ada70','48c9f8','10abda','007afa','5855d1']}]};
 var pantoneSpring2016Small = {name:'Pantone Spring 2016', desc: ' <a href="http://www.pantone.com/pages/fcr/?season=spring&year=2016&pid=11" target="_blank" >Spring 2016</a>: A Transporting and Transformative Canvas', 
-palette: [{'colors':['F7CAC9','F7786B','91A8D0','034F84','FAE03C','98DDDE','9896A4','DD4132','B18F6A','79C753']}]};					
+palette: [{'colors':['F7CAC9','F7786B','91A8D0','034F84','FAE03C']},{'colors':['98DDDE','9896A4','DD4132','B18F6A','79C753']}]};					
 
 var smallPalettes =[ios7Palette, jackProductionPalette, pantoneSpring2016Small];					
 
