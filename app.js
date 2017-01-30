@@ -68,7 +68,7 @@ var nimberPalette = {name: 'Nimber Palette', desc: 'Palette used by <a href="htt
 		 [{'colors':['c83321','ffffff','363C43','808A9d','b8c0ce']},
 		 {'colors':['a41807','f2f2f2','21262d','6d788c','95a0b4']},
 		 {'colors':['fec411','ffb900','72c700','f4511e','46a6eb']},
-		 {'colors':['e5a904','e5a904','5a9d00','c73608','1979be']}};	
+		 {'colors':['e5a904','e5a904','5a9d00','c73608','1979be']}]};	
 			  
 var pantoneSpring2016Small = {name:'Pantone Spring 2016', desc: ' <a href="http://www.pantone.com/pages/fcr/?season=spring&year=2016&pid=11" target="_blank" >Spring 2016</a>: A Transporting and Transformative Canvas', 
 palette: [{'colors':['F7CAC9','F7786B','91A8D0','034F84','FAE03C']},{'colors':['98DDDE','9896A4','DD4132','B18F6A','79C753']}]};					
