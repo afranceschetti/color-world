@@ -48,8 +48,12 @@ var pantoneSpring2016 = {name:'Pantone Spring 2016', desc: ' <a href="http://www
 						{'name':'Green Flash','colors':['79C753']},
 					]
 				};				
-				
-var palettes =[tangoPalette, alePalette, metroPalette];
+
+var nimberPalette = {name: 'Nimber Palette', desc: 'Palette used by <a href="https://www.nimber.com/">Nimber</a>',
+		     palette: [{'colors':['c83321','a41807','ffffff','f2f2f2','363C43','21262d','808A9d','6d788c','b8c0ce','95a0b4',
+					  'fec411','e5a904','ffb900','e5a904','72c700','5a9d00','f4511e','c73608','46a6eb','1979be']}]};					
+
+var palettes =[tangoPalette, alePalette, metroPalette,nimberPalette];
 
 
 var jackProductionPalette = { name: 'Jack Production', desc: 'Mini palette found on  <a href="http://www.jackproductions.com.au/" target="_blank" >Jack Production</a>', 
@@ -61,10 +65,7 @@ var ios7Palette = { name: 'iOs 7 Palette', desc: 'Palette used on iPhone in iOs7
 var pantoneSpring2016Small = {name:'Pantone Spring 2016', desc: ' <a href="http://www.pantone.com/pages/fcr/?season=spring&year=2016&pid=11" target="_blank" >Spring 2016</a>: A Transporting and Transformative Canvas', 
 palette: [{'colors':['F7CAC9','F7786B','91A8D0','034F84','FAE03C']},{'colors':['98DDDE','9896A4','DD4132','B18F6A','79C753']}]};					
 
-var nimberPalette = {name: 'Nimber Palette', desc: 'Palette used by <a href="https://www.nimber.com/">Nimber</a>',
-		     palette: [{'colors':['c83321','a41807','ffffff','f2f2f2','363C43','21262d','808A9d','6d788c','b8c0ce','95a0b4',
-					  'fec411','e5a904','ffb900','e5a904','72c700','5a9d00','f4511e','c73608','46a6eb','1979be']}]};					
-var smallPalettes =[ios7Palette, jackProductionPalette, pantoneSpring2016Small,nimberPalette];					
+var smallPalettes =[ios7Palette, jackProductionPalette, pantoneSpring2016Small];					
 
 $(document).ready(function() {
 	init();
