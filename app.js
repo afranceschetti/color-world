@@ -109,7 +109,7 @@ function init(){
 	for (i = 0; i < smallPalettes.length; i++) {
 		var paletteId = "_s" + i;
 		smallPaletteHtml += createPaletteHtml(smallPalettes[i],paletteId);
-		navPaletteMenuItems += "<li><a href='#" + paletteId + "'>" + palettes[i].name + "</a></li>";
+		navPaletteMenuItems += "<li><a href='#" + paletteId + "'>" + smallPalettes[i].name + "</a></li>";
 	}
 	$("#small-palettes").html(smallPaletteHtml);
 	$("#nav-palette-dropdown").html(navPaletteMenuItems);
