@@ -51,12 +51,12 @@ var pantoneSpring2016 = {name:'Pantone Spring 2016', desc: ' <a href="http://www
 				};				
 
 
-	var nimberPalette = {name: 'Nimber Palette', desc: 'Palette used by <a href="https://www.nimber.com/">Nimber</a>', palette: 
-			 [{'name':'Accent Red','colors':['c83321','a41807']},
-			  {'name':'White','colors':['ffffff','f2f2f2']},
-			  {'name':'Gray','colors':['363C43','21262d','808A9d','6d788c''b8c0ce','95a0b4']},
-			  {'name':'Yellow','colors':['fec411','e5a904','ffb900','e5a904']},
-			  {'name':'Info colors','colors':['72c700','5a9d00','f4511e','c73608','46a6eb','1979be']}]};	
+var nimberPalette = {name: 'Nimber Palette', desc: 'Palette used by <a href="https://www.nimber.com/">Nimber</a>', palette: 
+		 [{'name':'Accent Red','colors':['c83321','a41807']},
+		  {'name':'White','colors':['ffffff','f2f2f2']},
+		  {'name':'Gray','colors':['363C43','21262d','808A9d','6d788c''b8c0ce','95a0b4']},
+		  {'name':'Yellow','colors':['fec411','e5a904','ffb900','e5a904']},
+		  {'name':'Info colors','colors':['72c700','5a9d00','f4511e','c73608','46a6eb','1979be']}]};	
 				
 
 var palettes =[tangoPalette, alePalette, metroPalette,nimberPalette];
