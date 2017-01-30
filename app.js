@@ -62,11 +62,13 @@ var jackProductionPalette = { name: 'Jack Production', desc: 'Mini palette found
 var ios7Palette = { name: 'iOs 7 Palette', desc: 'Palette used on iPhone in iOs7', 
 						palette: [{colors:['8e8e93','ff2252','ff342f','ff9422','ffcc34']},
 						{colors:['2ada70','48c9f8','10abda','007afa','5855d1']}]};
+
 var nimberPalette = {name: 'Nimber Palette', desc: 'Palette used by <a href="https://www.nimber.com/" target="_blank">Nimber</a>', palette: 
-		 [{'colors':['c83321','ffffff','363C43','808A9d','b8c0ce']},
-		 [{'colors':['a41807','f2f2f2','21262d','6d788c','95a0b4']},
-		 [{'colors':['fec411','ffb900','72c700','f4511e','46a6eb']},
-		 [{'colors':['e5a904','e5a904','5a9d00','c73608','1979be']}]};	
+		 [{'colors':['c83321','ffffff','363C43','808A9d','b8c0ce']}],
+		 [{'colors':['a41807','f2f2f2','21262d','6d788c','95a0b4']}],
+		 [{'colors':['fec411','ffb900','72c700','f4511e','46a6eb']}],
+		 [{'colors':['e5a904','e5a904','5a9d00','c73608','1979be']}]};			
+
 			  
 var pantoneSpring2016Small = {name:'Pantone Spring 2016', desc: ' <a href="http://www.pantone.com/pages/fcr/?season=spring&year=2016&pid=11" target="_blank" >Spring 2016</a>: A Transporting and Transformative Canvas', 
 palette: [{'colors':['F7CAC9','F7786B','91A8D0','034F84','FAE03C']},{'colors':['98DDDE','9896A4','DD4132','B18F6A','79C753']}]};					
