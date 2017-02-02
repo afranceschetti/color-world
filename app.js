@@ -36,7 +36,7 @@ var metroPalette = 	{name:'Windows Phone', desc: 'Palette metro style used in wi
 				};
 
 var openSuse = 	{name:'Open Suse', desc: 'Palette used in Open Suse', palette: 
-					[{'name':'Orange','colors':['c83321','e35302']},
+					[{'name':'Orange','colors':['fcb11c','e35302']},
 					 {'name':'Butter','colors':['ffff66','b2b247']},
 					 {'name':'Lemon','colors':['91d007','217808']},
 					 {'name':'Plum','colors':['d4c4ff','4d4466']},
