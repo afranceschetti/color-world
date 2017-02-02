@@ -12,7 +12,7 @@ var tangoPalette = 	{name:'Tango Desktop Project', desc: 'The palette used by th
 						]
 					};
 					
-var alePalette = 	{name:'Generic found', desc: 'The palette used by the <a href="https://fedorahosted.org/echo-icon-theme/wiki/Guidelines/ColorPalette" target="_blank" >Fedora Echo Icon Theme</a>', palette: 
+var fedoraPalette = 	{name:'Fedora', desc: 'The palette used by the <a href="https://fedorahosted.org/echo-icon-theme/wiki/Guidelines/ColorPalette" target="_blank" >Fedora Echo Icon Theme</a>', palette: 
 					[{'name':'Blue','colors':['19aeff','0047c8','005c94']},
 					{'name':'Green','colors':['ccff42','9ade00','009100']},
 					{'name':'Orange','colors':['ffff3e','ff9900','ff6600']},
@@ -35,6 +35,16 @@ var metroPalette = 	{name:'Windows Phone', desc: 'Palette metro style used in wi
 					]
 				};
 
+var openSuse = 	{name:'Open Suse', desc: 'Palette used in Open Suse', palette: 
+					[{'name':'Orange','colors':['c83321','e35302']},
+					 {'name':'Butter','colors':['ffff66','b2b247']},
+					 {'name':'Lemon','colors':['91d007','217808']},
+					 {'name':'Plum','colors':['d4c4ff','4d4466']},
+					 {'name':'Sky','colors':['5080ff','000074']},
+					 {'name':'Dust','colors':['babdb6','2e3436']},
+					 {'name':'Blood','colors':['ff4d4d','8c0000']}	
+					]
+				};
 
 var pantoneSpring2016 = {name:'Pantone Spring 2016', desc: ' <a href="http://www.pantone.com/pages/fcr/?season=spring&year=2016&pid=11" target="_blank" >Spring 2016</a>: A Transporting and Transformative Canvas', palette: 
 					[{'name':'Rose Quartz','colors':['F7CAC9']},
@@ -53,7 +63,7 @@ var pantoneSpring2016 = {name:'Pantone Spring 2016', desc: ' <a href="http://www
 
 
 
-var palettes =[tangoPalette, alePalette, metroPalette];
+var palettes =[tangoPalette, fedoraPalette, metroPalette, openSuse];
 
 
 var jackProductionPalette = { name: 'Jack Production', desc: 'Mini palette found on  <a href="http://www.jackproductions.com.au/" target="_blank" >Jack Production</a>', 
